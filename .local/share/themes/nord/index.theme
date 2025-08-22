@@ -1,0 +1,12 @@
+Type=X-GNOME-Metatheme
+[Desktop Entry]
+Name=nord
+Comment=An Flat Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=nord
+MetacityTheme=nord
+IconTheme=nord
+CursorTheme=Nightfox-cursors
+ButtonLayout=close,minimize,maximize:menu

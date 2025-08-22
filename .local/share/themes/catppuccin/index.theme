@@ -1,0 +1,12 @@
+Type=X-GNOME-Metatheme
+[Desktop Entry]
+Name=catppuccin
+Comment=An Flat Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=catppuccin
+MetacityTheme=catppuccin
+IconTheme=catppuccin
+CursorTheme=Catppuccin-cursors
+ButtonLayout=close,minimize,maximize:menu
