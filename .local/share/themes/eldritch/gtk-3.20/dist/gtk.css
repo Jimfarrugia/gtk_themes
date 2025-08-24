@@ -88,8 +88,8 @@
 /* window manager colors */
 @define-color wm_bg_focused #212337;
 @define-color wm_bg_unfocused #171928;
-@define-color wm_border_focused #04d1f9;
-@define-color wm_border_unfocused #323449;
+@define-color wm_border_focused #212337;
+@define-color wm_border_unfocused #212337;
 @define-color wm_title_focused #ebfafa;
 @define-color wm_title_unfocused mix(#ebfafa,#171928,0.4);
 @define-color wm_icons_focused #ebfafa;
@@ -7333,33 +7333,33 @@ decoration {
   background-image: none;
   border-radius: 3px 3px 0 0;
   border-width: 0;
-  box-shadow: 0 3px 9px 1px rgba(39, 155, 155, 0.7), 0 0 0 1px #04d1f9;
+  box-shadow: 0 3px 9px 1px rgba(39, 155, 155, 0.7), 0 0 0 1px #212337;
   /* this is used for the resize cursor area */
   margin: 15px; }
   decoration:backdrop {
-    box-shadow: 0 3px 9px 1px transparent, 0 2px 6px 2px rgba(39, 155, 155, 0.4), 0 0 0 1px #323449;
+    box-shadow: 0 3px 9px 1px transparent, 0 2px 6px 2px rgba(39, 155, 155, 0.4), 0 0 0 1px #212337;
     transition: 200ms ease-out; }
   .maximized decoration, .fullscreen decoration, .tiled decoration {
     border-radius: 0; }
   .popup decoration {
     box-shadow: none; }
   .ssd decoration {
-    box-shadow: 0 0 0 1px #04d1f9; }
+    box-shadow: 0 0 0 1px #212337; }
     .ssd decoration:backdrop {
-      box-shadow: 0 0 0 1px #323449; }
+      box-shadow: 0 0 0 1px #212337; }
   .solid-csd decoration {
     border-radius: 0;
     margin: 0;
     box-shadow: none; }
   .csd.popup decoration {
     border-radius: 0;
-    box-shadow: 0 1px 2px rgba(39, 155, 155, 0.2), 0 0 0 1px rgba(50, 52, 73, 0.13); }
+    box-shadow: 0 1px 2px rgba(39, 155, 155, 0.2), 0 0 0 1px rgba(33, 35, 55, 0.13); }
   tooltip.csd decoration {
     border-radius: 3px;
     box-shadow: none; }
   messagedialog.csd decoration {
     border-radius: 3px;
-    box-shadow: 0 1px 2px rgba(39, 155, 155, 0.2), 0 0 0 1px rgba(50, 52, 73, 0.13); }
+    box-shadow: 0 1px 2px rgba(39, 155, 155, 0.2), 0 0 0 1px rgba(33, 35, 55, 0.13); }
 
 /***********************
  ! Fallback mode panel *
@@ -7942,7 +7942,7 @@ UnityDecoration {
   -UnityDecoration-title-fade: 35px;
   -UnityDecoration-title-alignment: 0; }
   UnityDecoration .top {
-    border: 1px solid #04d1f9;
+    border: 1px solid #212337;
     border-bottom: 0;
     border-radius: 3px 3px 0 0;
     padding: 1px 8px 0;
@@ -7956,7 +7956,7 @@ UnityDecoration {
       background-image: none;
       color: white; }
     UnityDecoration .top:backdrop {
-      border: 1px solid #323449;
+      border: 1px solid #212337;
       color: mix(#ebfafa,#171928,0.4); }
   UnityDecoration .left, UnityDecoration .right, UnityDecoration .bottom {
     background-color: #212337; }
